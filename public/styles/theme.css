@@ -1,0 +1,54 @@
+html {
+	font-family: 'Lato', sans-serif;
+	background-color: #e6e8e4;
+	color: #333;
+	font-size: 18px;
+}
+
+
+a {
+	color: #47665c;
+	text-decoration: none;
+}
+
+
+p, ul, ol {
+	line-height: 1.5rem;
+}
+
+ul, ol {
+	list-style-position: inside;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+h1 {
+	font-size: 2.0rem;
+}
+
+body > header,
+body > footer,
+body > section {
+	padding: 1rem 15%;
+}
+
+
+pre {
+	padding: 1em;
+	color: #2E4830;
+	border: dotted 1px #ccc;
+}
+
+pre, .hljs {
+    background: none repeat scroll 0% 0% #FCFCFC;
+}
+
+article .carnival-comment-indicator svg path {
+	fill: #848d7f;
+}
+
+article .carnival-comment-indicator:hover svg path,
+article .carnival-comment-indicator.commenting svg path{
+	fill: #425e3f;
+}

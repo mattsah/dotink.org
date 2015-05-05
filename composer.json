@@ -21,7 +21,10 @@
 		"php": ">=5.4.0",
 		"rdlowrey/auryn": "dev-master",
 		"dotink/affinity": "dev-master",
-		"dotink/inkwell-core": "dev-master"
+		"dotink/inkwell-core": "dev-master",
+		"dotink/inkwell-components": "dev-master",
+		"cebe/markdown": "~1.1@dev",
+		"symfony/yaml": "~3.0@dev"
 	},
 	"autoload": {
 		"classmap": ["user/"]
